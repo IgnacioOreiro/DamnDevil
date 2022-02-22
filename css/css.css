@@ -161,7 +161,7 @@ h1{
 }
 
 .container__liq .card__liq{
-    width: 330px;
+    width: 255px;
     height: 430px;
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
@@ -172,10 +172,10 @@ h1{
 
 .container__liq .card__liq:hover {
     transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.282);
 }
 .container__liq .card__liq img{
-    width: 330px;
+    width: 240px;
     height: 220px;
 }
 
@@ -185,7 +185,7 @@ h1{
 
 .container__liq .card__liq p{
     padding: 0 1rem;
-    font-size: 160¿px;
+    font-size: 16px;
     font-weight: 300;
 }
 
@@ -223,9 +223,19 @@ h1{
     align-items: center;
 }
 
+/*Forms*/
 
+.forms__body{
+    width: auto;
+    height: auto;
+    margin-top: auto;
+}
 
-
+.form__register{
+    width: auto;
+    height: auto;
+    margin-top: auto;
+}
 
 
 
@@ -331,6 +341,13 @@ h1{
         flex-direction: column;
     }
 
+/*Forms*/
+
+
+
+
+
+
 /*Footer*/
 
     .footer h3{
@@ -377,7 +394,7 @@ h1{
 
 
     .info__index{
-        width: 767px;
+        width: 100%;
         height: 230px;
         margin-top: 150px;
         text-align: left;
@@ -401,6 +418,16 @@ h1{
         flex-direction: column;
     }
 
+
+/*Tutoriales*/
+
+
+
+
+
+
+
+
 /*Footer*/
 
 .footer{
@@ -411,7 +438,7 @@ h1{
         width: 100%;
         height: 45px;
     }
-    
+
     .footer h3{
         text-align: center;
         font-size: 2rem;
