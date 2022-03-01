@@ -1,0 +1,82 @@
+/*------Main Index----- */
+
+
+.info__index{
+    background-color: rgba(137, 43, 226, 0.653)
+}
+
+.personas{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.contenedor {
+    border: 0,3px solid rgb(85, 84, 84);
+    margin: 25px;
+    width: 400px;
+    height: 400px;
+}
+.contenedor img{
+    height: 100%;
+    width: 100%;
+    border-color: 10px grey;
+    object-fit: contain;
+}
+
+.contenedor h3{
+    background-color: grey;
+    font-size: 20px;
+}
+.contenedor p{
+    background-color: grey;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+/*------Main TUTORIALES----- */
+
+.body__generalTutoriales{
+    background-color: rgba(66, 71, 113, 0.482);
+}
+
+
+
+.videos{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.columna {
+    border: 2px solid rgb(85, 84, 84);
+    background-color: rgba(255, 255, 255, 0.637);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Forms*/
+
+.forms__body{
+    width: auto;
+    height: auto;
+    margin-top: auto;
+}
+
+.form__register{
+    width: auto;
+    height: auto;
+    margin-top: auto;
+}

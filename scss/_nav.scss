@@ -1,0 +1,35 @@
+/*NAV*/
+
+.nav__inicio{
+    padding-left: 20px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    height: 60px;
+
+    ul{
+        list-style: none;
+        margin: -1%;
+        padding: -01%;
+        li{
+            display: inline-block;
+        
+            a{
+                color: white;
+                display: block;
+                text-decoration: none;
+                padding: 20px ;
+                &:hover{
+                    background-color: rgba(87, 87, 191, 0.626);
+                }
+            }
+        }
+    }
+
+}
+h1{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 2em;
+
+}

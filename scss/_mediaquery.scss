@@ -1,0 +1,195 @@
+
+/*------Fin Footer----- */
+
+
+/*MEDIA*/
+
+/*MEDIA  425*/
+@media (max-width: 425px) {
+    /*nav*/
+    .nav__inicio{
+        padding-left: 20px;
+        background-color: black;
+        height: 10%;
+        width: auto;
+        height: auto;
+
+        }
+
+    .nav__inicio ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    
+    .nav__inicio ul li a{
+        color: white;
+        text-decoration: none;
+        padding: 20px ;
+
+    }
+    /*infodevil*/
+
+
+    .info__index{
+        width: 420px;
+        height: 230px;
+        margin-top: 200px;
+        text-align: left;
+    }
+
+    /*stuffdevil*/
+    .personas{
+        display: grid;
+        grid-gap: 5px;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    /*Cards -liq-res-*/
+
+    .grid__liq{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        flex-direction: column;
+    }
+
+/*Forms*/
+
+
+
+
+
+
+/*Footer*/
+
+    .footer h3{
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    .footer img{
+        padding-top: 10px;
+        width: 32px;
+        height: 32px;
+    }
+}
+
+/*MEDIA  768*/
+@media (max-width: 768px) {
+
+    /*nav*/
+
+    .nav__inicio{
+        padding-left: 20px;
+        background-color: black;
+        height: 10%;
+        width: auto;
+        height: auto;
+
+        }
+
+    .nav__inicio ul{
+        display: flex;
+        flex-direction: column;
+        width: 10%;
+    }
+
+    
+    .nav__inicio ul li a{
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+        width: 110px;
+
+    }
+    /*infodevil*/
+
+
+    .info__index{
+        width: 100%;
+        height: 230px;
+        margin-top: 150px;
+        text-align: left;
+    }
+
+    /*stuffdevil*/
+    .personas{
+        display: grid;
+        grid-gap: 5px;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    /*Cards -liq-res-*/
+
+    .grid__liq{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        flex-direction: column;
+    }
+
+
+/*Tutoriales*/
+
+
+
+
+
+
+
+
+/*Footer*/
+
+.footer{
+        grid-area: footer;
+            background-color: black;
+            color: white;
+            top: 160px;
+        width: 100%;
+        height: 45px;
+    }
+
+    .footer h3{
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    .footer img{
+        padding-top: 10px;
+        width: 32px;
+        height: 32px;
+    }
+}
+
+/*REGISTRO*/
+@media(max-width: 584px){
+    .container{
+        max-width: 100%;
+    }
+    form .user-details .input-box{
+        margin-bottom: 15px;
+        width: 100%;
+}
+        form .category{
+        width: 100%;
+}
+    .content form .user-details{
+        max-height: 300px;
+        overflow-y: scroll;
+}
+    .user-details::-webkit-scrollbar{
+        width: 5px;
+}
+}
+        @media(max-width: 459px){
+        .container .content .category{
+        flex-direction: column;
+    }
+
+    }
