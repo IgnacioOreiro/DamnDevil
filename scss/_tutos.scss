@@ -52,8 +52,8 @@
 .videos{
     display: grid;
     grid-gap: 10px;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-columns: auto;
     justify-items: center;
 }
 
@@ -67,16 +67,3 @@
     align-items: center;
 }
 
-/*Forms*/
-
-.forms__body{
-    width: auto;
-    height: auto;
-    margin-top: auto;
-}
-
-.form__register{
-    width: auto;
-    height: auto;
-    margin-top: auto;
-}
