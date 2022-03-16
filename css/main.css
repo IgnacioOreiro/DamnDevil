@@ -47,6 +47,24 @@ body {
       width: 32px;
       height: 32px; }
 
+:hover.btn--whatsapp {
+  background-color: #3dbf12;
+  font-size: 0,1rem;
+  padding: 0,1ren;
+  border-radius: 40px; }
+
+:hover.btn--facebook {
+  background-color: #3a5795;
+  font-size: 0,1rem;
+  padding: 0,1ren;
+  border-radius: 40px; }
+
+:hover.btn--instagram {
+  background-color: #5851DB;
+  font-size: 0,1rem;
+  padding: 0,1ren;
+  border-radius: 40px; }
+
 /*NAV*/
 .nav__inicio {
   padding-left: 20px;
